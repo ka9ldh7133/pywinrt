@@ -1,4 +1,4 @@
-name: wheels
+name: wheels build
 concurrency: wheels-${{ github.ref }}
 on: 
   push:
