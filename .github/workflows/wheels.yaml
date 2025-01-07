@@ -1,8 +1,9 @@
-name: wheels build
+name: wheels
 concurrency: wheels-${{ github.ref }}
 on: 
   push:
       tags: [wheels/*]
+  workflow_dispatch:
 
 jobs:
   sdist:
